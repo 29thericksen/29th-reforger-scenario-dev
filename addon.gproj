@@ -1,0 +1,22 @@
+GameProject {
+ ID "29thInfantryDivision_Training Mission"
+ GUID "696A0E68FADA0E6A"
+ TITLE "29thInfantryDivision_Training Mission"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

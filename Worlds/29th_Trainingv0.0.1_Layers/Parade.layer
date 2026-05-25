@@ -1,0 +1,178 @@
+GenericEntity Parade_US : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Components/Area.et" {
+ coords 321.349 6.672 2462.139
+ {
+  $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/Systems/ScenarioFramework/Components/Layer.et" {
+   Functions {
+    coords 0 0 0
+    {
+     $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+      SpawnParade_US {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{5A2220DD0C16958B}Prefabs/MP/Spawning/SpawnPoint_US.et"
+        }
+       }
+       coords 5.831 -3.388 -27.306
+      }
+      ArsenalParade_US {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{BE99D77D1155B127}Prefabs/Props/Military/Arsenal/ArsenalBoxes/US/ArsenalBox_US.et"
+        }
+       }
+       coords -40.626 -5.205 -12.04
+       angles 0 70.703 0
+       scale 1.91
+      }
+     }
+    }
+   }
+   ParadeDeck {
+    coords 0 0 0
+    {
+     $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/Systems/ScenarioFramework/Components/Layer.et" {
+      Ground {
+       coords 0 0 0
+       {
+        $grp StaticModelEntity : "{A027B45306A1E311}Prefabs/Structures/Infrastructure/Pavements/AsphaltPavement_01/AsphaltPavement_01_Wide_8m.et" {
+         {
+          coords -35.851 -5.334 -22.9
+          angles 0 17.329 0
+          scale 1.5
+         }
+         {
+          coords -32.418 -5.334 -12.332
+          angles 0 17.329 0
+          scale 1.5
+         }
+         {
+          coords -30.746 -5.334 -6.985
+          angles 0 17.329 0
+          scale 1.5
+         }
+         {
+          coords -34.179 -5.334 -17.553
+          angles 0 17.329 0
+          scale 1.5
+         }
+         {
+          coords -47.938 -5.334 -19.128
+          angles 0 17.329 0
+          scale 1.5
+         }
+         {
+          coords -44.505 -5.334 -8.56
+          angles 0 17.329 0
+          scale 1.5
+         }
+         {
+          coords -42.833 -5.334 -3.213
+          angles 0 17.329 0
+          scale 1.5
+         }
+         {
+          coords -46.266 -5.334 -13.781
+          angles 0 17.329 0
+          scale 1.5
+         }
+         {
+          coords -39.107 -5.293 7.348
+          angles 0 17.329 0
+          scale 1.5
+         }
+         {
+          coords -28.692 -5.293 -1.771
+          angles 0 17.329 0
+          scale 1.5
+         }
+         {
+          coords -39.143 -5.293 -33.386
+          angles 0 17.329 0
+          scale 1.5
+         }
+         {
+          coords -37.472 -5.293 -28.039
+          angles 0 17.329 0
+          scale 1.5
+         }
+         {
+          coords -27.02 -5.293 3.576
+          angles 0 17.329 0
+          scale 1.5
+         }
+         {
+          coords -40.779 -5.293 2.001
+          angles 0 17.329 0
+          scale 1.5
+         }
+         {
+          coords -51.232 -5.292 -29.614
+          angles 0 17.329 0
+          scale 1.5
+         }
+         {
+          coords -49.559 -5.292 -24.267
+          angles 0 17.329 0
+          scale 1.5
+         }
+         {
+          coords -25.955 -5.239 -31.724
+          angles 0 17.329 0
+          scale 1.5
+         }
+         {
+          coords -24.334 -5.281 -26.585
+          angles 0 17.329 0
+          scale 1.5
+         }
+         {
+          coords -20.901 -5.281 -16.016
+          angles 0 17.329 0
+          scale 1.5
+         }
+         {
+          coords -19.228 -5.281 -10.67
+          angles 0 17.329 0
+          scale 1.5
+         }
+         {
+          coords -22.662 -5.281 -21.238
+          angles 0 17.329 0
+          scale 1.5
+         }
+         {
+          coords -15.503 -5.239 -0.109
+          angles 0 17.329 0
+          scale 1.5
+         }
+         {
+          coords -17.175 -5.241 -5.456
+          angles 0 17.329 0
+          scale 1.5
+         }
+         {
+          coords -27.628 -5.238 -37.071
+          angles 0 17.329 0
+          scale 1.5
+         }
+        }
+       }
+      }
+      Decoration {
+       coords 0 0 0
+       {
+        GenericEntity : "{90B7CEB4C665B1E2}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V1.et" {
+         coords -46.133 -5.938 -28.153
+        }
+        GenericEntity : "{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/Barrel.et" {
+         coords -36.388 -5.094 3.28
+         scale 1.38
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
